@@ -10,6 +10,6 @@ accelerometer.addEventListener('reading', e => {
 });
 accelerometer.start();
 
-document.getElementById("chuck").addEventListener("click", function(){
+document.getElementById("chuck").addEventListener("click", function(e){
     alert('hey');
 });
