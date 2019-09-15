@@ -11,5 +11,5 @@ accelerometer.addEventListener('reading', e => {
 accelerometer.start();
 
 document.getElementById("chuck").addEventListener("click", function(e){
-    alert('hey');
+    document.getElementById('zane').innerText = "yay"
 });
