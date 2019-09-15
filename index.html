@@ -9,13 +9,15 @@
    
 </head>
 <body>
-    
-<h1>heya</h1>
-<button id="chuck">howdy bois</button>
-<h2>x axis</h2><span id="xaxe">0</span>
-<h2>y axis</h2><span id="yaxe">0</span>
-<h2>z axis</h2><span id="zaxe">0</span>
-<span id="zane">0</span>
+     <section>
+        <h1>R U OK?</h1>
+        <p>Today is R U OK? Day, 
+        Under the surface we all have stuff going on - this webapp I wrote shows just a fraction of the many states we can feel</p>
+        <p style="color: red;">disclaimer: this is a student built website: with no affliation with RUOK.</p>
+        <div id="mainarea">
+             <span>Today I am feeling: </span><input autofocus type="text" id="input_textbox" name="messageinput" onblur="if(this.value.length > 1){localStorage.setItem(this.name, this.value); window.location.href='./camerapage.html'}else{alert('please enter value in textbox')}"/>
+        </div>
+        </section>
 <script src="./src/js/script.js"></script>
 </body>
 </html>
