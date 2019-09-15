@@ -10,6 +10,6 @@ accelerometer.addEventListener('reading', e => {
 });
 accelerometer.start();
 
-document.getElementById("chuck").addEventListener("click", function(e){
+document.getElementById("chuck").addEventListener("touchstart", function(e){
     document.getElementById('zane').innerText = "yay"
 });
