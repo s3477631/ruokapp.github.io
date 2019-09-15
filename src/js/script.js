@@ -9,3 +9,7 @@ accelerometer.addEventListener('reading', e => {
 //   console.log("Acceleration along the Z-axis " + accelerometer.z);
 });
 accelerometer.start();
+
+document.getElementById("chuck").addEventListener("click", function(){
+    alert('hey');
+});
